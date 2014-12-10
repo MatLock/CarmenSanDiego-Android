@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/estasEn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/viajarTitle" />
+
+    <Spinner
+        android:id="@+id/conexiones"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"  />
+
+    <Button
+        android:id="@+id/viajar"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:onClick="onViajar"
+        android:text="@string/viajarButton" />
+
+    <TextView
+        android:id="@+id/recorridoActual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recorridoActualText" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="62dp" >
+    </ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ordenEmitidaText" />
+
+    <Button
+        android:id="@+id/ordenDeArresto"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:onClick="onGenerarOrden"
+        android:text="@string/ordenDeArrestoTextButton" />
+
+    <Button
+        android:id="@+id/buscarPistas"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:onClick="onBuscarPistas"
+        android:text="@string/buscarPistasTextButton" />
+
+</LinearLayout>

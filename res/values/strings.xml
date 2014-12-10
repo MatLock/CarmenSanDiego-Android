@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Carmen San Diego</string>
+    <string name="action_settings">Settings</string>
+    <string name="caso">Generar Caso</string>
+    <string name="paisActual">Estas en: </string>
+    <string name="ordenDeArrestoText">Orden de arresto contra: </string>
+    <string name="emitirOrdenText">Emitir orden contra: </string>
+    <string name="pedirOrdenTextButton">Pedir Orden de Arresto </string>
+    <string name="viajarTextButton">Viajar </string>
+	<string name="buscarPistasTextButton">Buscar Pistas </string>
+	<string name="ordenDeArrestoTitle">Orden de arresto </string>
+	<string name="viajarTitle">Estas en: </string>
+	<string name="viajarButton">viajar</string>
+	<string name="recorridoAcutalText">Recorrido Actual: </string>
+	<string name="ordenEmitidaText">Orden de arresto contra</string>
+	<string name="ordenDeArrestoTextButton">Orden de arresto</string>
+	<string name="visitarLugarTitle">Pedir Pistas</string>
+	<string name="banco">Banco</string>
+	<string name="club">Club</string>
+	<string name="biblioteca">Biblioteca</string>
+	<string name="comenzar">Comenzar</string>
+	<string name="descripcion"></string>
+	<string name="pista"></string>
+	<string name="recorridoActualText"></string>
+</resources>

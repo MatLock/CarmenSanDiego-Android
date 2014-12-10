@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ordenDeArrestoTitle" />
+    
+    <TextView
+        android:id="@+id/OrdenDeArrestoActivity_ESTAS_EN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/paisActual" />
+
+    <TextView
+        android:id="@+id/saludo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ordenDeArrestoText" />
+
+    <TextView
+        android:id="@+id/villanoSeleccionado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emitirOrdenText" />
+
+      <Spinner
+        android:id="@+id/villanos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+      
+    <Button
+        android:id="@+id/emitirOrden"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:onClick="onEmitirOrden"
+        android:text="@string/pedirOrdenTextButton" />
+
+    <Button
+        android:id="@+id/viajar"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:onClick="onVolverAtras"
+        android:text="@string/viajarTextButton" />
+
+    <Button
+        android:id="@+id/buscarPistas"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:onClick="onVolverAtrasYVisitarLugar"
+        android:text="@string/buscarPistasTextButton" />
+
+</LinearLayout>
